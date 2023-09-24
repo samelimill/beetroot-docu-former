@@ -33,7 +33,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please provide guidelines for contribution:',
-        name: 'constribution',
+        name: 'contribution',
     },
     {
         type: 'input',
@@ -44,7 +44,14 @@ const questions = [
         type: 'list',
         message: 'Please select a license for this project:',
         name: 'license',
-        choices: ['a','b','c'],
+        choices: [
+            'Apache 2.0',
+            'GPL 3.0',
+            'MIT',
+            'MPL 2.0',
+            'Unlicense',
+            'None',
+        ],
     },
     {
         type: 'input',
@@ -60,7 +67,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-};
+    fs.writeFile(fileName, data, (err) =>
+   err ? console.error(err) : console.log('ReadME created!')
+)};
 
 // TODO: Create a function to initialize app
 function init() {
