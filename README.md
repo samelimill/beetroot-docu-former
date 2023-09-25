@@ -1,6 +1,7 @@
 # Professional README Generator
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/samelimill/beetroot-docu-former)
-![JS badge](https://img.shields.io/badge/javascript-green?logo=javascript)  
+![JS badge](https://img.shields.io/badge/javascript-green?logo=javascript)
+![Node badge](https://img.shields.io/badge/node-yellow?logo=node.js)  
 A simple README.md generator.
 ## Objectives
 ```
