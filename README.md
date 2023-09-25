@@ -24,5 +24,6 @@ THEN I am taken to the corresponding section of the README
 
 A demo video can be found [here.](https://drive.google.com/file/d/1n0d-VrwD5-pYrGHIbu-Pfsn7AgYMo9wB/view)
 
-## Installation  
+## Installation and Usage
 To run this app, one will need to install node into the folder where the repository is located, as well as the inquirer package.  
+With these elements installed, the user can initialize the app by typing "node index.js" in their command line. The app will walk the user through each step and prompt them to enter information pertaining to their project, including a list of options for licensing. After each question is answered, the app will generate a markdown file named after the user's project, with each field filled with the user's responses and a table of contents for navigation.
