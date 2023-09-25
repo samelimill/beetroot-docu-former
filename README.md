@@ -1,5 +1,6 @@
 # Professional README Generator
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/samelimill/beetroot-docu-former)  
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/samelimill/beetroot-docu-former)
+![JS badge](https://img.shields.io/badge/javascript-green?logo=javascript)  
 A simple README.md generator.
 ## Objectives
 ```
@@ -19,9 +20,9 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```  
+## Demo
 
+A demo video can be found [here.](https://drive.google.com/file/d/1n0d-VrwD5-pYrGHIbu-Pfsn7AgYMo9wB/view)
 
 ## Installation  
 To run this app, one will need to install node into the folder where the repository is located, as well as the inquirer package.  
-
-https://drive.google.com/file/d/1n0d-VrwD5-pYrGHIbu-Pfsn7AgYMo9wB/view
