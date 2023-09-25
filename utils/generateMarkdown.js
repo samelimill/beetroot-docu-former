@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function to make license badge
 function renderLicenseBadge(license) {
   if (license !== 'none'){
     this.license = license.split(' ').join('_');
@@ -7,11 +6,9 @@ function renderLicenseBadge(license) {
   } else {
     return "";
   }
+};
 
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function for license link
 function renderLicenseLink(license) {
   if (license !== 'none'){
     this.license = license.split(' ').join('-');
@@ -21,8 +18,7 @@ function renderLicenseLink(license) {
   }
 };
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function that returns the license section of README, returns empty if no license selected
 function renderLicenseSection(license) {
   const liLink = renderLicenseBadge(license);
   if (license !== 'none'){
